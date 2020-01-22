@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ModifyExpenses">
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What was it for?"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/amountField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/dateField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/categoryField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category, what kind of purchase?"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/noteField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Leave yourself a note"
+        android:inputType="textMultiLine"/>
+</LinearLayout>
